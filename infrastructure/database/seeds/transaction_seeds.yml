@@ -1,0 +1,11 @@
+---
+ - item: 'play station 4'
+   user: 'Vic'
+   date: '2018/04/16'
+   money: 50000,
+   note: 'Please borrow me money!'
+ - item: 'play station VR'
+   user: 'Shelly'
+   date: '2018/04/16'
+   money: 70000,
+   note: 'Please borrow me money!'  
