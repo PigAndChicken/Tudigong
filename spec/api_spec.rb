@@ -49,5 +49,11 @@ describe 'Test Tudigong Api' do
             _(result['id']).must_equal id
         end
 
+        it 'SAD: should be able to show error msg when wrong id' do
+            get '/api/v0.1/transaction/wrong_id'
+
+            _(last_response.status).must_equal 404
+        end
+
     end
 end
